@@ -1,0 +1,21 @@
+.news-container {
+	display: flex;
+	
+}
+
+.col-1 {
+	flex-basis: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.col-1 >* {
+	flex:1 1 200px;
+	box-shadow: 5px 5px 5px 5px grey;
+	padding: 10px;
+	margin: 10px;
+	text-align: justify;
+}
+.col-2 {
+	flex-basis: 30%;
+}

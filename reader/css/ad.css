@@ -1,0 +1,28 @@
+.ad {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: verdana;
+}
+
+.ad > .price {
+  color: red;
+  font-size: 22px;
+}
+
+.ad button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+.ad button:hover {
+  opacity: 1;
+}

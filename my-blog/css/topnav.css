@@ -1,0 +1,52 @@
+
+.topnav .icon {
+  display: none;
+}
+/* Code for topnav */
+
+.topnav {
+    display: flex;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.active {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.topnav > .right {
+    margin-left: auto;
+}
+
+/*Media Screen - Responsive*/
+
+
+@media screen and (max-width: 600px) {
+  .topnav, .row, .column3 { 
+    flex-direction: column;
+  }
+  .topnav > .right {
+    margin-left: 0;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+
+  }
+}

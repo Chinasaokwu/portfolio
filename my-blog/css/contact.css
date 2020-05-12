@@ -1,0 +1,85 @@
+
+.bg-modal {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.modal-content{
+	width: 500px;
+	height: 90%;
+	background-color: white;
+	opacity: 1;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+
+}
+form {
+	margin:25px;
+}
+
+input, textarea{
+	/*width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;*/
+	 width: 100%;
+  	padding: 12px 20px;
+ 	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+
+}
+textarea {
+
+  	height: 150px;
+  	box-sizing: border-box;
+  	border: 2px solid #ccc;
+  	border-radius: 4px;
+  	background-color: #f8f8f8;
+  	font-size: 16px;
+  	resize: none;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.close {
+	position: absolute;
+	top:;
+	right: 14px;
+	font-size: 30px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	margin-top: 0px;
+}
+.close:hover {
+	background-color: green;
+	font-weight: bold;
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+}

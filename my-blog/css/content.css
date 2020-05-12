@@ -1,0 +1,116 @@
+
+.row{
+	display: flex;
+
+  	background-color: ;
+  	padding: 10px;
+  	margin-left: 0px;
+  	margin-right: 0px;
+  
+}
+.column1 {
+	flex-basis: 15%;
+	padding: 0px;
+}
+.column3 {
+	flex-basis: 35%;
+	padding: 0px;
+}
+.column2 {
+	flex-basis: 55%;
+	display: flex;
+	flex-direction: column;
+	background-color: ;
+  	padding: 0px;
+}
+
+.column3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.sidenav {
+	background-color: #333;
+	border: 3px solid;
+  	
+}
+.sidenav > h3 {
+	color: white;
+	outline:1px dotted white;
+}
+.sidenav a {
+	display: block;
+}
+.sidenav a:hover {
+	color: #008CBA;
+}
+/**/
+
+.con {
+	box-shadow: 5px 5px 5px 5px grey;
+	padding: 10px;
+	margin: 10px;
+	text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.con > h1, h3, h2 {
+	color: #008CBA;
+}
+#but{
+	margin: 5px;
+	padding: 10px 10px;
+	background-color: aliceblue;
+	color: blue;
+	border-radius: 8px;
+	border-color: aliceblue;
+
+}
+#but:hover {
+	font-weight: bold;
+	box-shadow: 2px 2px 2px lightgrey;
+}
+#image {
+	border: 1px solid #ddd; /* Gray border */
+  	border-radius: 4px;  /* Rounded border */
+  	padding: 5px; /* Some padding */
+  	width: 50px; /* Set a small width */
+}
+
+#con a {
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#con a:hover {
+
+}
+
+.pagination {
+  display: inline-block;
+  box-shadow: 5px 5px 5px grey;
+  background-color: black;
+
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #ddd; /* Gray */
+}
+
+.pagination a.active {
+  background-color: grey;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
